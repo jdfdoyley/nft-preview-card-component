@@ -1,4 +1,13 @@
+# Dependency directories
+node_modules/
+package-lock.json
+
+# Sass Related Files
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
+
+# Parcel Files
+.parcel-cache/
+dist/

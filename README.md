@@ -35,5 +35,29 @@ COMING SOON!
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-- Web Design Prototype: [Web Design Prototype with Figma](https://www.figma.com/proto/MGA2f2o0GmxfdNL4RJlXGh/NFT-Preview-Card-Component?page-id=71%3A64&node-id=59%3A255&viewport=323%2C48%2C1.06&scaling=min-zoom&starting-point-node-id=59%3A255&hide-ui=1)
+- My Web Design Prototype: [Click to view.](https://www.figma.com/proto/MGA2f2o0GmxfdNL4RJlXGh/NFT-Preview-Card-Component?page-id=71%3A64&node-id=59%3A255&viewport=323%2C48%2C1.06&scaling=min-zoom&starting-point-node-id=59%3A255&hide-ui=1)
 - GitHub Repo URL: [Add live site URL here](https://github-repo-url.com)
+
+## My process
+
+COMING SOON!
+
+### Built with
+
+COMING SOON!
+
+### What I learned
+
+COMING SOON!
+
+### Useful resources
+
+COMING SOON!
+
+## Author
+
+COMING SOON!
+
+## Acknowledgments
+
+COMING SOON!

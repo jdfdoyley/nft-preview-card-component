@@ -1,0 +1,26 @@
+{
+  "name": "nft-card-component",
+  "version": "1.0.0",
+  "description": "This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenegs help you improve your coding skills by building realistic projects.",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdfdoyley/nft-preview-card-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdfdoyley/nft-preview-card-component/issues"
+  },
+  "homepage": "https://github.com/jdfdoyley/nft-preview-card-component#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "sass": "^1.43.5"
+  }
+}
