@@ -1,5 +1,4 @@
 @use './variables';
-@use 'sass:math';
 
 * {
   box-sizing: border-box;
@@ -20,6 +19,6 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
