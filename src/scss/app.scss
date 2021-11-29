@@ -46,6 +46,11 @@
   .img-overlay:hover {
     opacity: 1;
   }
+
+  hr {
+    border: 1px solid variables.$line;
+    margin-bottom: 24px;
+  }
 }
 
 .card__content {
@@ -67,5 +72,31 @@
   .content-body {
     font-size: 1.15em;
     margin-bottom: 24px;
+  }
+}
+
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .ethereum,
+  .clock {
+    display: flex;
+    align-items: center;
+  }
+
+  .eth-icon,
+  .clock-icon {
+    margin-right: 8px;
+  }
+
+  .ethereum:not(img) {
+    color: variables.$cyan;
+    font-weight: variables.$semi-bold;
+  }
+
+  .clock:not(img) {
+    font-weight: variables.$regular;
   }
 }
