@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #0d192b;
+  color: #8bacda;
+  font: 1.125em "Outfit", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.032em;
+  line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 0.6875em;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+.card {
+  background-color: #14253d;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  width: 327px;
+}
+.card__header img {
+  border-radius: 0.5em;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.card__header {
+  margin-bottom: 1em;
+  position: relative;
+}
+.card .img-overlay {
+  background-color: rgba(0, 255, 247, 0.6);
+  border-radius: 0.5em;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .img-overlay img {
+  width: 3em;
+  height: 3em;
+}
+.card .img-overlay:hover {
+  opacity: 1;
+}
+.card hr {
+  border: 1px solid #2f415b;
+  margin-bottom: 24px;
+}
+
+.card__content {
+  margin-bottom: 1.5em;
+}
+.card__content .content-heading {
+  color: white;
+  cursor: pointer;
+  font-size: 1.3125em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  transition: color ease-in-out 0.3s;
+}
+.card__content .content-heading:hover {
+  color: #00fff7;
+}
+.card__content .content-body {
+  font-size: 1em;
+  margin-bottom: 24px;
+}
+
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-footer .ethereum,
+.content-footer .clock {
+  display: flex;
+  align-items: center;
+}
+.content-footer .eth-icon,
+.content-footer .clock-icon {
+  margin-right: 8px;
+}
+.content-footer .ethereum:not(img) {
+  color: #00fff7;
+  font-weight: 600;
+}
+.content-footer .clock:not(img) {
+  font-weight: 400;
+}
+
+.card__footer .footer-content {
+  display: flex;
+  align-items: center;
+}
+.card__footer .footer-avatar {
+  border: 1px solid white;
+  border-radius: 50%;
+  display: block;
+  margin-right: 8px;
+  width: 34px;
+  height: auto;
+}
+.card__footer .footer-text {
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 400;
+}
+.card__footer .footer-text--cta {
+  color: white;
+  transition: color ease-in-out 0.3s;
+}
+.card__footer .footer-text--cta:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=index.413e95bb.css.map */
