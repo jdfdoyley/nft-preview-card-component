@@ -1,8 +1,10 @@
+@use './variables';
+
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875em;
   text-align: center;
 
   a {
-    color: hsl(228, 45%, 44%);
+    color: variables.$links;
   }
 }

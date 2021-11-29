@@ -12,25 +12,35 @@
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
-  <main class="card">
-    <header class="card__header">
-      <img src="/src/img/image-equilibrium.jpg" alt="The equilibrium image">
-    </header>
-    <div class="card__content">
-      <h1 class="content-heading">Equilibrium #3429</h1>
-      <p class="content-body">Our Equilibrium collection promotes balance and calm.</p>
-      <div class="content-footer">
-        <span class="ethereum"><img class="eth-icon" src="/src/img/icon-ethereum.svg">0.041 ETH</span>
-        <span class="clock"><img class="clock-icon" src="/src/img/icon-clock.svg">3 days left</span>
+  <div class="card-container"></div>
+    <main class="card">
+
+      <header class="card__header">
+        <img src="/src/img/image-equilibrium.jpg" alt="The equilibrium image">
+        <div class="img-overlay">
+          <img src="/src/img/icon-view.svg" alt="A view icon">
+        </div>
+      </header>
+
+      <div class="card__content">
+        <h1 class="content-heading">Equilibrium #3429</h1>
+        <p class="content-body">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="content-footer">
+          <span class="ethereum"><img class="eth-icon" src="/src/img/icon-ethereum.svg">0.041 ETH</span>
+          <span class="clock"><img class="clock-icon" src="/src/img/icon-clock.svg">3 days left</span>
+        </div>
       </div>
-    </div>
-    <footer class="card__footer">
-      <div class="footer-content">
-        <img class="footer-avatar" src="/src/img/image-avatar.png" alt="The author's avatar image">
-        <p class="footer-text">Creation of <span class="footer-text--cta">Jules Wyvern</span></p>
-      </div>
-    </footer>
-  </main>
+
+      <footer class="card__footer">
+        <div class="footer-content">
+          <img class="footer-avatar" src="/src/img/image-avatar.png" alt="The author's avatar image">
+          <p class="footer-text">Creation of <span class="footer-text--cta">Jules Wyvern</span></p>
+        </div>
+      </footer>
+
+    </main>
+
+  </div>
 
   <div class="attribution">
     Challenege by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Jason D'Oyley</a>.

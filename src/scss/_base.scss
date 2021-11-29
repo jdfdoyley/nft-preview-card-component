@@ -1,0 +1,24 @@
+@use './variables';
+@use 'sass:math';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: variables.$main-bg;
+  color: variables.$soft-blue;
+  font: 1.125em variables.$font-stack;
+  font-weight: variables.$light;
+  letter-spacing: -.032em;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
