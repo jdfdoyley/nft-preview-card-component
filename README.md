@@ -34,10 +34,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View solution](https://nft-preview-card-component-rho.vercel.app/)
-- Live Site URL: [View live site](https://nft-preview-card-component-rho.vercel.app/)
-- Prototype URL: [Click to view.](https://www.figma.com/proto/MGA2f2o0GmxfdNL4RJlXGh/NFT-Preview-Card-Component?page-id=71%3A64&node-id=59%3A255&viewport=323%2C48%2C1.06&scaling=min-zoom&starting-point-node-id=59%3A255&hide-ui=1)
-- Repository URL: [Add live site URL here](https://github.com/jdfdoyley/nft-preview-card-component)
+- [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-_ZBjhD2aF)
+- [Live Site](https://nft-preview-card-component-rho.vercel.app/)
+- [Design Prototype](https://www.figma.com/proto/MGA2f2o0GmxfdNL4RJlXGh/NFT-Preview-Card-Component?page-id=71%3A64&node-id=59%3A255&viewport=323%2C48%2C1.06&scaling=min-zoom&starting-point-node-id=59%3A255&hide-ui=1)
+- [Git Repo](https://github.com/jdfdoyley/nft-preview-card-component)
 
 ## My process
 
